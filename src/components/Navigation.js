@@ -29,7 +29,11 @@ const Navigation = (props) => {
             {/* Top Bar*/}
             <nav className="navbar navbar-expand-md navbar-light d-none d-lg-block sticky-top" role="navigation">
                 <div className="container-fluid">
-                    <a className="navbar-brand" href="/home">Home</a>
+                    <Nav>
+                        <NavItem>
+                            <NavLink to="/home">Home</NavLink>
+                        </NavItem>
+                    </Nav>
                     <Nav className="ml-auto">
                         <NavItem>
                             <NavLink to="/contact" className="nav-link">
