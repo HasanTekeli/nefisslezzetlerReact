@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/nefisslezzetlerReact/static/css/main.d98472bd.chunk.css",
-    "main.js": "/nefisslezzetlerReact/static/js/main.a4341081.chunk.js",
-    "main.js.map": "/nefisslezzetlerReact/static/js/main.a4341081.chunk.js.map",
+    "main.js": "/nefisslezzetlerReact/static/js/main.3a62c906.chunk.js",
+    "main.js.map": "/nefisslezzetlerReact/static/js/main.3a62c906.chunk.js.map",
     "runtime-main.js": "/nefisslezzetlerReact/static/js/runtime-main.fc918d7a.js",
     "runtime-main.js.map": "/nefisslezzetlerReact/static/js/runtime-main.fc918d7a.js.map",
     "static/css/2.150d169a.chunk.css": "/nefisslezzetlerReact/static/css/2.150d169a.chunk.css",
@@ -20,6 +20,6 @@
     "static/css/2.150d169a.chunk.css",
     "static/js/2.b09b31d5.chunk.js",
     "static/css/main.d98472bd.chunk.css",
-    "static/js/main.a4341081.chunk.js"
+    "static/js/main.3a62c906.chunk.js"
   ]
 }
