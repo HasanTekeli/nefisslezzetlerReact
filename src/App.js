@@ -1,5 +1,5 @@
 import './App.css';
-import { BrowserRouter, Switch, Route } from "react-router-dom";
+import { HashRouter, Switch, Route } from "react-router-dom";
 
 import Home from './pages/Home';
 import Contact from './pages/Contact';
@@ -12,18 +12,18 @@ import {Redirect} from "react-router";
 function App() {
   return (
     <div className="App">
-      <BrowserRouter basename={"/nefisslezzetlerReact"}>
+      <HashRouter basename={"/"}>
           <Navigation />
             <Switch>
                 <Route exact path={"/"}>
                     <Redirect to={"/home"} />
                 </Route>
-              <Route path="/nefisslezzetlerReact/home" component={Home} />
-              <Route path="/nefisslezzetlerReact/contact" component={Contact} />
-              <Route path="/nefisslezzetlerReact/cookies" component={Cookies} />
-              <Route path="/nefisslezzetlerReact/about" component={About} />
+              <Route path="/home" component={Home} />
+              <Route path="/contact" component={Contact} />
+              <Route path="/cookies" component={Cookies} />
+              <Route path="/about" component={About} />
             </Switch>
-      </BrowserRouter>
+      </HashRouter>
     </div>
   );
 }
