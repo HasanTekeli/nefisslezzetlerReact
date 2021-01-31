@@ -22,10 +22,8 @@ const Contact = (props) => {
                     <span className={"fa fa-instagram ma2 tc"}><p>instagram.com</p></span>
 
                 </div>
-                <div className="fl w-100 w-50-ns pa2">
-                    <iframe title={"NefissLezzetlerOnMap"}
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d390.9988105224173!2d34.032376912866305!3d38.37234157965515!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14d6717fcf0e921b%3A0xc125ccf38a5df4ee!2sNefiss%20Lezzetler!5e0!3m2!1str!2str!4v1578559795346!5m2!1str!2str"
-                        width="400" height="300" frameBorder="0" allowFullScreen=""></iframe>
+                <div className="fl w-100-ns w-50-l pa2">
+                    <img alt={"Aksaray Haritası"} src={"https://www.enerjiatlasi.com/i/gunes-haritasi/aksaray-gunes-enerjisi-potansiyeli-haritasi.png"}/>
                 </div>
             </div>
         </div>
