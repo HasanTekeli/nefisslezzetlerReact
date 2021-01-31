@@ -18,7 +18,7 @@ function PhotoGallery() {
     };
 
     return (
-        <div>
+        <div className={"mb6"}>
             <Gallery photos={photos} onClick={openLightbox} />
             <ModalGateway>
                 {viewerIsOpen ? (
