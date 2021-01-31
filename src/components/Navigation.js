@@ -31,7 +31,7 @@ const Navigation = (props) => {
                 <div className="container-fluid">
                     <Nav>
                         <NavItem>
-                            <NavLink to="/home">Nefiss Lezzetler</NavLink>
+                            <NavLink to="/home" className="nav-link">Nefiss Lezzetler</NavLink>
                         </NavItem>
                     </Nav>
                     <Nav className="ml-auto">
