@@ -18,10 +18,10 @@ function App() {
                 <Route exact path={"/"}>
                     <Redirect to={"/home"} />
                 </Route>
-              <Route path="/home" component={Home} />
-              <Route path="/contact" component={Contact} />
-              <Route path="/cookies" component={Cookies} />
-              <Route path="/about" component={About} />
+              <Route path="/nefisslezzetlerReact/home" component={Home} />
+              <Route path="/nefisslezzetlerReact/contact" component={Contact} />
+              <Route path="/nefisslezzetlerReact/cookies" component={Cookies} />
+              <Route path="/nefisslezzetlerReact/about" component={About} />
             </Switch>
       </BrowserRouter>
     </div>

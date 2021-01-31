@@ -3,7 +3,8 @@ import React from 'react';
 const Cookies = (props) => {
     return (
         <div>
-            Cookies
+            <h1>Ürünler</h1>
+
         </div>
     )
 };

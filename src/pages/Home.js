@@ -3,7 +3,7 @@ import "tachyons"
 import "./Home.css"
 import { Col, Row, Container } from "reactstrap";
 
-const Home = (props) => {
+const Home = () => {
     return (
         <div className={"tc"}>
             <p id={"baslik"} className={"mt6"}>Nefiss Lezzetler</p>
