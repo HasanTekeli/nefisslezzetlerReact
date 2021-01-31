@@ -31,30 +31,30 @@ const Navigation = (props) => {
                 <div className="container-fluid">
                     <Nav>
                         <NavItem>
-                            <NavLink to="/home">Home</NavLink>
+                            <NavLink to="/home">Nefiss Lezzetler</NavLink>
                         </NavItem>
                     </Nav>
                     <Nav className="ml-auto">
                         <NavItem>
-                            <NavLink to="/contact" className="nav-link">
-                                Contact
+                            <NavLink to="/cookies" className="nav-link">
+                                Ürünlerimiz
                             </NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink to="/cookies" className="nav-link">
-                                Cookies
+                            <NavLink to="/contact" className="nav-link">
+                                İletişim
                             </NavLink>
                         </NavItem>
                         <NavItem>
                             <NavLink to="/about" className="nav-link">
-                                About
+                                Hakkımızda
                             </NavLink>
                         </NavItem>
                     </Nav>
                 </div>
             </nav>
         {/* Bottom Tab Navigator*/}
-        <nav className="navbar fixed-bottom navbar-light d-block d-lg-none bottom-tab-nav" role="navigation">
+        <nav className="navbar fixed-bottom navbar-light d-block d-lg-none bottom-tab-nav bg-white" role="navigation">
             <Nav className="w-100">
                 <div className=" d-flex flex-row justify-content-around w-100">
                     {
