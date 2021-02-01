@@ -1,0 +1,22 @@
+#urun {
+    height: 300px;
+    width: 400px;
+    overflow: hidden;
+}
+
+#urun2 img {
+    height: auto;
+    width: 400px;
+
+}
+
+#urunismi {
+    position: absolute;
+    bottom: 16px;
+    right: 16px;
+    background-color: rgba(0,0,0,0.4);
+    color: white;
+    text-align: right;
+    padding: 0 10px;
+}
+
