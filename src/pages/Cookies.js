@@ -1,6 +1,7 @@
 import React from 'react';
 import {photos} from "../components/PhotosDev";
 import Products from "../components/Products";
+import Routes from "../components/ProductsPages/Routing";
 
 class Cookies extends React.Component {
     constructor() {
@@ -16,12 +17,14 @@ class Cookies extends React.Component {
             .then(prods => this.setState({photos: prods}));
     }
 
+
     render() {
         return (
             <div className={"mb6"}>
                 <h1 className={"tc mt4 f1"}>Ürünlerimiz</h1>
+
                 <Products />
-                {/*<PhotoCardList photos={photos} />*/}
+                <Routes />
 
             </div>
         )

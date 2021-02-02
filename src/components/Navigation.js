@@ -6,19 +6,19 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPhone, faHome, faCookieBite, faAddressCard } from '@fortawesome/free-solid-svg-icons';
 
 const tabs = [{
-    route: "/home",
+    route: "/anasayfa",
     icon: faHome,
     label: "Anasayfa"
 },{
-    route: "/contact",
+    route: "/iletisim",
     icon: faPhone,
     label: "İletişim"
 },{
-    route: "/cookies",
+    route: "/urunler",
     icon: faCookieBite,
     label: "Ürünlerimiz"
 },{
-    route: "/about",
+    route: "/hakkinda",
     icon: faAddressCard,
     label: "Hakkımızda"
 }]
@@ -31,22 +31,22 @@ const Navigation = (props) => {
                 <div className="container-fluid">
                     <Nav>
                         <NavItem>
-                            <NavLink to="/home" className="nav-link">Nefiss Lezzetler</NavLink>
+                            <NavLink to="/anasayfa" className="nav-link">Nefiss Lezzetler</NavLink>
                         </NavItem>
                     </Nav>
                     <Nav className="ml-auto">
                         <NavItem>
-                            <NavLink to="/cookies" className="nav-link">
+                            <NavLink to="/urunler" className="nav-link">
                                 Ürünlerimiz
                             </NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink to="/contact" className="nav-link">
+                            <NavLink to="/iletisim" className="nav-link">
                                 İletişim
                             </NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink to="/about" className="nav-link">
+                            <NavLink to="/hakkinda" className="nav-link">
                                 Hakkımızda
                             </NavLink>
                         </NavItem>

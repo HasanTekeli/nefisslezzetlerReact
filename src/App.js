@@ -17,12 +17,12 @@ class App extends React.Component {
                   <Navigation/>
                   <Switch>
                       <Route exact path={"/"}>
-                          <Redirect to={"/home"}/>
+                          <Redirect to={"/anasayfa"}/>
                       </Route>
-                      <Route path="/home" component={Home}/>
-                      <Route path="/contact" component={Contact}/>
-                      <Route path="/cookies" component={Cookies}/>
-                      <Route path="/about" component={About}/>
+                      <Route path="/anasayfa" component={Home}/>
+                      <Route path="/iletisim" component={Contact}/>
+                      <Route path="/urunler" component={Cookies}/>
+                      <Route path="/hakkinda" component={About}/>
                   </Switch>
               </HashRouter>
           </div>
