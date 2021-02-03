@@ -10,10 +10,6 @@ const tabs = [{
     icon: faHome,
     label: "Anasayfa"
 },{
-    route: "/iletisim",
-    icon: faPhone,
-    label: "İletişim"
-},{
     route: "/urunler",
     icon: faCookieBite,
     label: "Ürünlerimiz"
@@ -21,6 +17,10 @@ const tabs = [{
     route: "/hakkinda",
     icon: faAddressCard,
     label: "Hakkımızda"
+},{
+    route: "/iletisim",
+    icon: faPhone,
+    label: "İletişim"
 }]
 
 const Navigation = (props) => {

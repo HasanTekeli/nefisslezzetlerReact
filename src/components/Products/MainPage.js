@@ -1,5 +1,5 @@
 import React from "react";
-import {products} from "../Photos";
+import {products} from "../PhotosDev";
 import ProductsCardList from "./ProductsCard";
 
 class ProductsMainPage extends React.Component {

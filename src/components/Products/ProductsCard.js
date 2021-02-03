@@ -26,15 +26,27 @@ const ProductsCardList = ({products}) => {
 
     let Kurabiye = products.filter(e => e.type === "Kurabiye")
     let Diger = products.filter(e => e.type === "Diger")
-    /*Kahvalti, Serbetli, Kek*/
-    function showA () {
+    let Kahvalti = products.filter(e => e.type === "Kahvalti")
+    let Serbetli = products.filter(e => e.type === "Serbetli")
+    let Kek = products.filter(e => e.type === "Kek")
+
+    function showKurabiye () {
         setfilteredUrunler(Kurabiye)
     }
-    function showB() {
+    function showDiger() {
         setfilteredUrunler(Diger)
     }
     function showAll() {
         setfilteredUrunler(products)
+    }
+    function showKahvalti() {
+        setfilteredUrunler(Kahvalti)
+    }
+    function showSerbetli() {
+        setfilteredUrunler(Serbetli)
+    }
+    function showKek() {
+        setfilteredUrunler(Kek)
     }
 
     return(
@@ -50,20 +62,48 @@ const ProductsCardList = ({products}) => {
                             </NavLink>
                         </NavItem>
                         <NavItem key={"Kurabiye"}>
-                            <NavLink to={"/urunler"} onClick={showA} className="nav-link bottom-nav-link" activeClassName="active">
+                            <NavLink to={"/urunler"} onClick={showKurabiye} className="nav-link bottom-nav-link" activeClassName="active">
                                 <div className="row d-flex flex-column justify-content-center align-items-center">
                                     <div className="bottom-tab-label">{"Kurabiyeler"}</div>
                                 </div>
                             </NavLink>
                         </NavItem>
                         <NavItem key={"Diger"}>
-                            <NavLink to={"/urunler"} onClick={showB} className="nav-link bottom-nav-link" activeClassName="active">
+                            <NavLink to={"/urunler"} onClick={showDiger} className="nav-link bottom-nav-link" activeClassName="active">
                                 <div className="row d-flex flex-column justify-content-center align-items-center">
 
                                     <div className="bottom-tab-label">{"Diğer"}</div>
                                 </div>
                             </NavLink>
                         </NavItem>
+                    </div>
+
+                    <div className=" d-flex flex-row justify-content-around w-100">
+                        <NavItem key={"Diger"}>
+                            <NavLink to={"/urunler"} onClick={showKahvalti} className="nav-link bottom-nav-link" activeClassName="active">
+                                <div className="row d-flex flex-column justify-content-center align-items-center">
+
+                                    <div className="bottom-tab-label">{"Kahvaltılık"}</div>
+                                </div>
+                            </NavLink>
+                        </NavItem>
+                        <NavItem key={"Diger"}>
+                            <NavLink to={"/urunler"} onClick={showSerbetli} className="nav-link bottom-nav-link" activeClassName="active">
+                                <div className="row d-flex flex-column justify-content-center align-items-center">
+
+                                    <div className="bottom-tab-label">{"Şerbetli"}</div>
+                                </div>
+                            </NavLink>
+                        </NavItem>
+                        <NavItem key={"Diger"}>
+                            <NavLink to={"/urunler"} onClick={showKek} className="nav-link bottom-nav-link" activeClassName="active">
+                                <div className="row d-flex flex-column justify-content-center align-items-center">
+
+                                    <div className="bottom-tab-label">{"Kek"}</div>
+                                </div>
+                            </NavLink>
+                        </NavItem>
+
                     </div>
                 </Nav>
             </nav>
