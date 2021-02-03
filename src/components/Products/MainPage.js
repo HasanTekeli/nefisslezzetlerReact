@@ -1,7 +1,6 @@
 import React from "react";
-import {products} from "../Photos";
+import {products} from "../PhotosDev";
 import ProductsCardList from "./ProductsCard";
-
 
 class ProductsMainPage extends React.Component {
     constructor() {
@@ -17,8 +16,6 @@ class ProductsMainPage extends React.Component {
             .then(fetchedProducts => this.setState({ products: fetchedProducts }));
     }
 
-
-
     render() {
 
         return (
@@ -29,7 +26,5 @@ class ProductsMainPage extends React.Component {
         );
     }
 }
-
-
 
 export default ProductsMainPage;

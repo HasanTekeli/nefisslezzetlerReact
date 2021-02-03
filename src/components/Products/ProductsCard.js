@@ -19,7 +19,6 @@ const ProductsCardList = ({products}) => {
     const [filteredUrunler, setfilteredUrunler] = React.useState(null)
 
     React.useEffect(() => {
-        /*fetchAPI();*/
         setUrunler(products);
         setfilteredUrunler(products);
         }, []
@@ -27,7 +26,7 @@ const ProductsCardList = ({products}) => {
 
     let Kurabiye = products.filter(e => e.type === "Kurabiye")
     let Diger = products.filter(e => e.type === "Diger")
-
+    /*Kahvalti, Serbetli, Kek*/
     function showA () {
         setfilteredUrunler(Kurabiye)
     }
@@ -70,7 +69,7 @@ const ProductsCardList = ({products}) => {
             </nav>
 
             {filteredUrunler && filteredUrunler.map(urun => (
-                <ProductsCard urun={urun} />
+                <ProductsCard key={urun.title} urun={urun} />
             ))}
         </div>
     )
