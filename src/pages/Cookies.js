@@ -1,6 +1,5 @@
 import React from 'react';
 import {products} from "../components/PhotosDev";
-import Routes from "../components/ProductsPages/Routing";
 import ProductsMainPage from "../components/Products/MainPage";
 
 class Cookies extends React.Component {
@@ -23,7 +22,7 @@ class Cookies extends React.Component {
             <div className={"mb6"}>
                 {/*<ProductsCard />*/}
                 <ProductsMainPage />
-                <Routes />
+
 
             </div>
         )

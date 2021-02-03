@@ -43,22 +43,20 @@ const ProductsCardList = ({products}) => {
             <nav className="navbar sticky-top navbar-light d-block bg-white" role="navigation">
                 <Nav className="w-100">
                     <div className=" d-flex flex-row justify-content-around w-100">
-                                <NavItem key={"All"}>
-                                    <NavLink to={"/urunler"} onClick={showAll} className="nav-link bottom-nav-link" activeClassName="active">
-                                        <div className="row d-flex flex-column justify-content-center align-items-center">
-
-                                            <div className="bottom-tab-label">{"Hepsini Göster"}</div>
-                                        </div>
-                                    </NavLink>
-                                </NavItem>
-                            <NavItem key={"Kurabiye"}>
-                                <NavLink to={"/urunler"} onClick={showA} className="nav-link bottom-nav-link" activeClassName="active">
-                                    <div className="row d-flex flex-column justify-content-center align-items-center">
-
-                                        <div className="bottom-tab-label">{"Kurabiyeler"}</div>
-                                    </div>
-                                </NavLink>
-                            </NavItem>
+                        <NavItem key={"All"}>
+                            <NavLink to={"/urunler"} onClick={showAll} className="nav-link bottom-nav-link" activeClassName="active">
+                                <div className="row d-flex flex-column justify-content-center align-items-center">
+                                    <div className="bottom-tab-label">{"Hepsini Göster"}</div>
+                                </div>
+                            </NavLink>
+                        </NavItem>
+                        <NavItem key={"Kurabiye"}>
+                            <NavLink to={"/urunler"} onClick={showA} className="nav-link bottom-nav-link" activeClassName="active">
+                                <div className="row d-flex flex-column justify-content-center align-items-center">
+                                    <div className="bottom-tab-label">{"Kurabiyeler"}</div>
+                                </div>
+                            </NavLink>
+                        </NavItem>
                         <NavItem key={"Diger"}>
                             <NavLink to={"/urunler"} onClick={showB} className="nav-link bottom-nav-link" activeClassName="active">
                                 <div className="row d-flex flex-column justify-content-center align-items-center">
@@ -70,8 +68,6 @@ const ProductsCardList = ({products}) => {
                     </div>
                 </Nav>
             </nav>
-
-            {/*asd*/}
 
             {filteredUrunler && filteredUrunler.map(urun => (
                 <ProductsCard urun={urun} />
