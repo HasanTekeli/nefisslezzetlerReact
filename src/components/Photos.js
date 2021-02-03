@@ -235,6 +235,121 @@ export const products = [
         src: "./assets/Products/46.jpeg",
         title: "Zencefilli Kurabiye",
         type: "Kurabiye"
+    },{
+        id: 47,
+        src: "./assets/Products/47.jpeg",
+        title: "Aromalı Kurabiye",
+        type: "Kurabiye"
+    },{
+        id: 48,
+        src: "./assets/Products/48.jpeg",
+        title: "Cocostar Kurabiye",
+        type: "Kurabiye"
+    },{
+        id: 49,
+        src: "./assets/Products/49.jpeg",
+        title: "Minik Pizza",
+        type: "Diger"
+    },{
+        id: 50,
+        src: "./assets/Products/50.jpeg",
+        title: "Kalburabastı",
+        type: "Serbetli"
+    },{
+        id: 51,
+        src: "./assets/Products/51.jpeg",
+        title: "Kol Böreği",
+        type: "Diger"
+    },{
+        id: 52,
+        src: "./assets/Products/52.jpeg",
+        title: "Tahinli Çörek",
+        type: "Ekmek"
+    },{
+        id: 53,
+        src: "./assets/Products/53.jpeg",
+        title: "Işıltılı Kurabiye",
+        type: "Kurabiye"
+    },{
+        id: 54,
+        src: "./assets/Products/54.jpeg",
+        title: "Pudingli Kurabiye",
+        type: "Kurabiye"
+    },{
+        id: 55,
+        src: "./assets/Products/55.jpeg",
+        title: "Cevizli Kurabiye",
+        type: "Kurabiye"
+    },{
+        id: 56,
+        src: "./assets/Products/56.jpeg",
+        title: "Mantar Kurabiye",
+        type: "Kurabiye"
+    },{
+        id: 57,
+        src: "./assets/Products/57.jpeg",
+        title: "İrmikli Toplar",
+        type: "Serbetli"
+    },{
+        id: 58,
+        src: "./assets/Products/58.jpeg",
+        title: "Portakallı Kurabiye",
+        type: "Kurabiye"
+    },{
+        id: 59,
+        src: "./assets/Products/59.jpeg",
+        title: "Gül Tatlısı",
+        type: "Serbetli"
+    },{
+        id: 60,
+        src: "./assets/Products/60.jpeg",
+        title: "Gözleme ve Sıkma",
+        type: "Diger"
+    },{
+        id: 61,
+        src: "./assets/Products/61.jpeg",
+        title: "Kahveli Çaylı Kurabiye",
+        type: "Kurabiye"
+    },{
+        id: 62,
+        src: "./assets/Products/62.jpeg",
+        title: "Kandil Simidi",
+        type: "Kurabiye"
+    },{
+        id: 63,
+        src: "./assets/Products/60.jpeg",
+        title: "Pizza Kurabiye-2",
+        type: "Kurabiye"
+    },{
+        id: 64,
+        src: "./assets/Products/64.jpeg",
+        title: "Çörek Otlu Kurabiye",
+        type: "Kurabiye"
+    },{
+        id: 65,
+        src: "./assets/Products/60.jpeg",
+        title: "Susamlı Çubuk",
+        type: "Kurabiye"
+    },{
+        id: 66,
+        src: "./assets/Products/66.jpeg",
+        title: "Aksaray (Un) Kurabiyesi",
+        type: "Kurabiye"
+    },{
+        id: 67,
+        src: "./assets/Products/67.jpeg",
+        title: "Elmalı Kurabiye-2",
+        type: "Kurabiye"
+    },{
+        id: 68,
+        src: "./assets/Products/68.jpeg",
+        title: "Kare Mantı",
+        type: "Diger"
+    },{
+        id: 69,
+        src: "./assets/Products/69.jpeg",
+        title: "Erişte",
+        type: "Diger"
     },
 
 ]
