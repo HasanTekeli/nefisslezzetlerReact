@@ -1,5 +1,5 @@
 
-export const photos = [
+export const products = [
     {
         src: './assets/Products/1.jpeg',
         width: 4,
@@ -18,7 +18,8 @@ export const photos = [
         src: "./assets/Products/3.jpeg",
         width: 4,
         height: 3,
-        title: "Ceviz Dolgulu Kerebiç Kurabiyesi"
+        title: "Ceviz Dolgulu Kerebiç Kurabiyesi",
+        type: "Kurabiye"
     },
     {
         src: "./assets/Products/4.jpeg",
@@ -30,13 +31,15 @@ export const photos = [
         src: "./assets/Products/5.jpeg",
         width: 4,
         height: 3,
-        title: "Çiçek Un Kurabiyesi"
+        title: "Çiçek Un Kurabiyesi",
+        type: "Kurabiye"
     },
     {
         src: "./assets/Products/6.jpeg",
         width: 4,
         height: 3,
-        title: "Elmalı Kurabiye"
+        title: "Elmalı Kurabiye",
+        type: "Kurabiye"
     },
 
 ]

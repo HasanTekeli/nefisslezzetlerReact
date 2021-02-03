@@ -7,6 +7,7 @@ const PhotoCardList = ({ photos }) => {
             key={photos[i].title}
             title={photos[i].title}
             src={photos[i].src}
+            tur={photos[i].tur}
             />
     })
     return (

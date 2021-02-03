@@ -4,7 +4,7 @@ import Filtre from "../filter";
 class Diger extends React.Component {
     render() {
         return (
-            <Filtre type={"Diğer Ürünler"}/>
+            <Filtre type={"Diger"}/>
         )
     }
 }
