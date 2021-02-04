@@ -18,7 +18,7 @@ const About = (props) => {
                         <p>Kuru mantı ve erişte siparişi vermek istiyorsanız "İletişim" linki aracılığıyla bizimle iletişime geçebilirsiniz.</p>
                     </Col>
                     <Col>
-                        <img alt={"Aksaray Kurabiyesi"} src={"./assets/Products/67.jpg"}/>
+                        <img alt={"Aksaray Kurabiyesi"} src={"https://raw.githubusercontent.com/HasanTekeli/nefisslezzetlerReact/master/public/assets/Products/urunler.png"}/>
                     </Col>
                 </Row>
             </Container>

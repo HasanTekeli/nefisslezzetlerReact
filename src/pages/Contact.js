@@ -24,7 +24,7 @@ const Contact = () => {
 
                         <a href={"https://www.google.com/maps/place/Nefiss+Lezzetler/@38.3732628,33.9969428,13z/data=!4m5!3m4!1s0x14d6717fcf0e921b:0xc125ccf38a5df4ee!8m2!3d38.3723388!4d34.0326512"}>
                             <div className="f4 link ph3 pv2 mt4 dib white bg-dark-blue mr1 br4">
-                                <p className="fa fa-map-marker" style={{margin:"auto"}}>  Coğlaki Mah. 1221 Sk. No: 4/C Merkez / AKSARAY </p>
+                                <p className="fa fa-map-marker" style={{margin:"auto"}}>  Coğlaki Mah. Kurtuluş Cad. No: 3/A Merkez / AKSARAY </p>
                             </div>
                         </a>
                     </Col>
