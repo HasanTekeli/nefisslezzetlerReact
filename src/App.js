@@ -4,9 +4,10 @@ import React from "react";
 import Home from './pages/Home';
 import Contact from './pages/Contact';
 import Cookies from './pages/Cookies';
-import About from "./pages/About"
-import Navigation from "./components/Navigation"
+import About from "./pages/About";
+import Navigation from "./components/Navigation";
 import {Redirect} from "react-router";
+import "react-bootstrap";
 
 class App extends React.Component {
 

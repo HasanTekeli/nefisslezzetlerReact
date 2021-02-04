@@ -25,3 +25,5 @@ yarn-error.log*
 .eslintcache
 /.idea
 #Deneme
+# Local Netlify folder
+.netlify

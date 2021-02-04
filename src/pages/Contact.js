@@ -1,12 +1,10 @@
 import React from 'react';
-import "tachyons"
 import { Container, Row, Col } from "reactstrap";
-import Iframe from "react-iframe";
 
 const Contact = () => {
     return (
         <div>
-            <div className={"ma4 tc-m tl-l ml7-l"}>
+            <div className={"ma4 tc"}>
             <h2 className={""}>İletişim</h2>
             <p>Bizimle iletişime geçebileceğiniz kanallar:</p>
             </div>
@@ -29,32 +27,26 @@ const Contact = () => {
                                 <p className="fa fa-map-marker" style={{margin:"auto"}}>  Coğlaki Mah. 1221 Sk. No: 4/C Merkez / AKSARAY </p>
                             </div>
                         </a>
-
-
-                    <h3 className={"mt3"}>Sosyal ağ adreslerimizden bizi takip edebilirsiniz:</h3>
-                        <div className={" d-flex flex-row justify-content-around w-100"}>
-                            <a href={"https://www.facebook.com/nefisslezzetleraksaray/"} target={"_blank"} rel="noreferrer">
-                                <div className={"fa fa-facebook ma2 tc"}>
-                                    <p className={"f4"}>nefisslezzetleraksaray</p>
-                                </div>
-                            </a>
-                            <a href={"https://www.instagram.com/nefisslezzetler_aksaray"} target={"_blank"} rel={"noreferrer"}>
-                                <div className={"fa fa-instagram ma2 tc"}>
-                                    <p className={"f4"}>nefisslezzetler_aksaray</p>
-                                </div>
-                            </a>
-
-                        </div>
                     </Col>
-                <Col>
+                    <Col>
+                    <h3 className={"mt4 mt0-l"}>Sosyal ağ adreslerimizden bizi takip edebilirsiniz:</h3>
 
-                    <Iframe url={"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d408.8777735582198!2d34.03107767708459!3d38.37176190011504!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14d6717fcf0e921b%3A0xc125ccf38a5df4ee!2sNefiss%20Lezzetler!5e0!3m2!1sen!2str!4v1612102914897!5m2!1sen!2str"}
-                            width="100%"
-                            height="300px"
-                            id="mapIframe"
-                            display="initial"
-                            position="relative"/>
-                </Col>
+                        <a href={"https://www.facebook.com/nefisslezzetleraksaray/"} target={"_blank"} rel={"noreferrer"}>
+                            <div className={"fa fa-facebook tc"}>
+                                <p className={"f4"}>nefisslezzetleraksaray</p>
+                            </div>
+                        </a>
+                        <a href={"https://www.instagram.com/nefisslezzetler_aksaray"} target={"_blank"} rel={"noreferrer"} className={"ma6"}>
+                            <div className={"fa fa-instagram tc"}>
+                                <p className={"f4"}>nefisslezzetler_aksaray</p>
+                            </div>
+                        </a>
+
+
+
+
+                    </Col>
+
                 </Row>
             </Container>
         </div>

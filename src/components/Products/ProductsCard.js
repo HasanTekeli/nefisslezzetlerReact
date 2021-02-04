@@ -15,12 +15,14 @@ const ProductsCard = ({ urun }) => {
 }
 
 const ProductsCardList = ({products}) => {
+    // eslint-disable-next-line
     const [urunler, setUrunler] = React.useState(null);
     const [filteredUrunler, setfilteredUrunler] = React.useState(null)
 
     React.useEffect(() => {
         setUrunler(products);
         setfilteredUrunler(products);
+        // eslint-disable-next-line react-hooks/exhaustive-deps
         }, []
     )
 
