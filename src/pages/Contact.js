@@ -31,12 +31,12 @@ const Contact = () => {
                     <Col>
                     <h3 className={"mt4 mt0-l"}>Sosyal ağ adreslerimizden bizi takip edebilirsiniz:</h3>
 
-                        <a href={"https://www.facebook.com/nefisslezzetleraksaray/"} target={"_blank"} rel={"noreferrer"}>
+                        <a href={"https://www.facebook.com/nefisslezzetleraksaray/"} target={"_blank"} rel={"noreferrer"} className={"mr2"}>
                             <div className={"fa fa-facebook tc"}>
                                 <p className={"f4"}>nefisslezzetleraksaray</p>
                             </div>
                         </a>
-                        <a href={"https://www.instagram.com/nefisslezzetler_aksaray"} target={"_blank"} rel={"noreferrer"} className={"ma6"}>
+                        <a href={"https://www.instagram.com/nefisslezzetler_aksaray"} target={"_blank"} rel={"noreferrer"} className={"ml2 mb6"}>
                             <div className={"fa fa-instagram tc"}>
                                 <p className={"f4"}>nefisslezzetler_aksaray</p>
                             </div>
